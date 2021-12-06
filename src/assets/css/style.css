@@ -1,0 +1,173 @@
+/***** Online Coaching *****/
+html {scroll-behavior: smooth;}
+body {margin: 0; padding: 0; color: #000; line-height: 31px; font-weight: 400; font-size: 18px; font-family: 'Roboto', sans-serif; outline: none; background-color: #f8f8f8;}
+*, ::after, ::before {-webkit-transition: all ease-in-out 0.3s; transition: all ease-in-out 0.3s;}
+a {outline: none;}
+a:hover {text-decoration: none;}
+img {width: auto; max-width: 100%;}
+p {font-size: 16px; line-height: 23px; font-weight: 300; color: #000; margin-bottom: 15px; font-family: 'Hind', sans-serif;}
+p:last-child {margin-bottom: 0;}
+ul {padding: 0; margin: 0; list-style: none;}
+span.help-block {display: none !important;}
+.help-block {border-color: #f00 !important;}
+
+@media only screen and (min-width: 1200px) {
+	.container {max-width: 1170px;}
+}
+
+/***** Header Section Start *****/
+.header-section {background-color: #fff; padding: 12px 0 10px;}
+.header-section nav.navbar {padding: 0;}
+.header-section nav.navbar .phone-number-btn {padding: 4px 20px 6px; border-radius: 7px; background-color: rgba(255, 99, 43, 0.05); border: 2px dotted rgba(255, 91, 47, 0.50); text-transform: uppercase; font-family: 'Saira Condensed', sans-serif; display: inline-block;}
+.header-section nav.navbar .phone-number-btn span {vertical-align: middle;}
+.header-section nav.navbar .phone-number-btn .icon-wrap {margin-right: 4px;}
+.header-section nav.navbar .phone-number-btn .divider-text {color: rgba(0,0,0,0.1); font-size: 21px; margin: 0 5px;}
+.header-section nav.navbar .phone-number-btn .call-us-text {font-size: 21px; font-weight: 700; line-height: 1; color: #414141;}
+.header-section nav.navbar .phone-number-btn .number-text {font-size: 21px; font-weight: 800; line-height: 1; color: #ff5931;}
+
+@media only screen and (min-width: 1200px) {
+	.header-section .container {max-width: 1150px;}
+}
+/***** Header Section End *****/
+
+/***** Free SEO Estimate Section Start *****/
+.free-seo-estimate  {padding: 83px 0 138px;}
+.title-wrap .section-title {font-size: 60px; font-weight: 700; line-height: 1; color: #000; font-family: 'Saira Condensed', sans-serif; margin-bottom: 20px;}
+.title-wrap .section-sub-title {font-size: 24px; font-weight: 400; line-height: 1; color: #181818; letter-spacing: 0.48px; margin-bottom: 42px;}
+.site-url-wrap {margin-bottom: 68px;}
+.site-url-wrap .site-url-text {font-size: 24px; font-weight: 500; line-height: 1; color: #212121; margin-bottom: 15px;}
+.site-url-wrap .form-row input {font-size: 20px; font-weight: 400; line-height: 1; color: #00a6ff; box-shadow: 2px 6px 24px 0px rgba(0, 0, 0, 0.09); border: 1px solid #ccc; border-radius: 7px; text-align: center; height: 77px; margin-right: 20px;}
+.site-url-wrap .form-row input:focus {border-color: #ff5931;}
+.keywords-table {max-width: 978px; margin: 0 auto 60px; background-color: #fff; box-shadow: 0px 0px 10.89px 0.11px rgba(0, 0, 0, 0.1);}
+.keywords-table table {margin-bottom: 0;}
+.keywords-table .table-bordered td, .keywords-table .table-bordered th {border-color: #e3e3e3; border-bottom-width: 1px; font-size: 20px; font-weight: 500; line-height: 1; color: #000; padding: 9px 32px; vertical-align: middle; background-color: #fff;}
+.keywords-table .add-keyword-btn {font-size: 16px; font-weight: 700; line-height: 1; color: #fff; border: 2px solid #fff; border-radius: 3px; display: inline-block; padding: 7px 19px; margin-left: 12px;}
+.keywords-table .table-bordered th {background-color: #00a6ff; color: #fff;}
+.keywords-table .table-bordered td {padding: 12px 32px;}
+.keywords-table .table-bordered td .keywords-no {margin-right: 5px; color: #000;}
+.keywords-table .table-bordered td .keywords-name {width: calc(100% - 33px);}
+.keywords-table .table-bordered td .keywords-name input {font-size: 18px; font-weight: 300; line-height: 1; color: #000; border: 1px solid #aaa; border-radius: 5px; box-shadow: none; padding: 10px 15px;}
+.keywords-table .table-bordered td .keywords-name input:focus {border-color: #ff5931;}
+.keywords-table .table-bordered .disabled-row td {color: #e5e5e5;}
+.keywords-table .checkbox-wrap {display: block; position: relative; text-align: center;}
+.keywords-table .checkbox-wrap input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.keywords-table .checkmark {height: 26px; width: 26px; background-color: #f9f9f9; display: inline-block; position: relative; border-radius: 3px; border: 1px solid #d0d0d0;}
+.keywords-table .checkbox-wrap:hover input ~ .checkmark {background-color: #f2f2f2; border-color: #f2f2f2;}
+.keywords-table .checkbox-wrap input:checked ~ .checkmark {background-color: #ff5931;  border-color: #ff5931;}
+.keywords-table .checkbox-wrap .checkmark:after {content: ""; position: absolute; display: none; left: 10px; top: 7px; width: 6px; height: 10px; border: solid white; border-width: 0 3px 3px 0; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg);}
+.keywords-table .checkbox-wrap input:checked ~ .checkmark:after {display: block;}
+.keywords-table .disabled-row .checkmark {background-color: #f9f9f9; border-color: #f9f9f9;}
+input[type="submit"].submit-btn {font-size: 26px; line-height: 1; font-weight: 800; color: #fff; font-family: 'Saira Condensed', sans-serif; background: rgb(255,64,63); background: linear-gradient(90deg, rgb(255, 64, 63) 0%, rgb(255, 150, 24) 100%); border: none; padding: 17px 55px; border-radius: 5px; cursor: pointer;}
+input[type="submit"].submit-btn:hover {background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,166,255,1) 100%);}
+.site-url-wrap .form-group {display: flex; justify-content: center; align-items: center; max-width: 716px; margin: 0 auto; }
+.website-btn {font-size: 26px; line-height: 1; font-weight: 800; color: #fff; font-family: 'Saira Condensed', sans-serif; background: rgb(255,64,63); background: linear-gradient(90deg, rgb(255, 64, 63) 0%, rgb(255, 150, 24) 100%); border: none; padding: 17px 55px; border-radius: 5px; cursor: pointer; height: 77px;}
+.website-btn:hover {background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,166,255,1) 100%); }
+/***** Free SEO Estimate Section End *****/
+
+.submitbtn {font-size: 22px; line-height: 1; font-weight: 800; color: #fff; font-family: 'Saira Condensed', sans-serif; background: rgb(255,64,63); background: linear-gradient(90deg, rgb(255, 64, 63) 0%, rgb(255, 150, 24) 100%); border: none; padding: 10px 55px; border-radius: 5px; cursor: pointer; }
+.submitbtn:hover {background: rgb(0,0,0); background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,166,255,1) 100%); }
+
+
+/***** Personal-info Page Start *****/
+.personal-info-sec {padding: 50px 0 110px;}
+.personal-info-sec .personal-info-wrp {max-width: 1010px; margin: 0 auto;}
+.personal-info-sec .personal-info-title {font-size: 26px; font-weight: 600; line-height: 1; color: #000; font-family: 'Saira Condensed', sans-serif; margin-bottom: 15px;}
+.personal-info-sec .info-sidebar .personal-info-title {margin-bottom: 25px;}
+.personal-info-sec .form-row .form-group {margin-bottom: 20px;}
+.personal-info-sec .info-sidebar .form-row .form-group {margin-bottom: 12px;}
+.personal-info-sec label {font-size: 18px; font-weight: 500; line-height: 1; color: #212121; margin-bottom: 10px;}
+.personal-info-sec .info-sidebar label {font-size: 16px; margin-bottom: 8px;}
+.personal-info-sec input {font-size: 16px; font-weight: 300; line-height: 1; color: #000; padding: 6px 15px; border-radius: 5px; border: 1px solid #d5d5d5; box-shadow: 2px 6px 22px 0px rgba(0, 0, 0, 0.03); height: 50px; box-shadow: none;}
+.personal-info-sec input:focus {border-color: #ff5931; box-shadow: none;}
+.personal-info-sec .info-table-wrp {margin-top: 27px;}
+.personal-info-sec .info-table-wrp th {font-size: 20px; font-weight: 700; line-height: 1; color: #000; border-bottom-width: 1px; border-color: #c9c9c9; padding: 15px 0;}
+.personal-info-sec .info-table-wrp th {padding-top: 36px;}
+.personal-info-sec .info-table-wrp td {font-size: 18px; font-weight: 300; line-height: 1; color: #000; border-color: #c9c9c9; padding: 15px 0;}
+.personal-info-sec .info-sidebar {background-color: #fff; border: 1px solid #e3e3e3; border-radius: 10px; padding: 27px; max-width: 378px; margin-left: auto;}
+.personal-info-sec input[type="submit"] {font-size: 24px; font-weight: 800; line-height: 1; color: #fff; background-color: #00a6ff; font-family: 'Saira Condensed', sans-serif; height: 55px; margin-top: 15px; box-shadow: none;}
+.personal-info-sec input[type="submit"]:hover {background-color: #000;}
+.personal-info-sec label.radio-wrap {font-size: 18px; font-weight: 300;}
+.personal-info-sec .radio-wrap {display: block; position: relative; padding-left: 27px; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.personal-info-sec .radio-wrap input {position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.personal-info-sec .checkmark {position: absolute; top: 0; left: 0; height: 18px; width: 18px; background-color: #f9f9f9; border-radius: 50%; box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.19); border: 1px solid #909090;}
+.personal-info-sec .checkmark:after {content: ""; position: absolute; display: none;}
+.personal-info-sec .radio-wrap input:checked ~ .checkmark:after {display: block;}
+.personal-info-sec .radio-wrap .checkmark:after {top: 5px; left: 5px; width: 6px; height: 6px; border-radius: 50%; background: #00a6ff;}
+.personal-info-sec .payment-method-img {margin-bottom: 3px;}
+/***** Personal-info Page End *****/
+
+/***** Footer Section Start *****/
+footer {background-color: #1c1c1c; padding: 48px 0 0;}
+footer .footer-logo {margin-bottom: 10px;}
+footer hr {border-color: #292929; margin: 18px 0 32px;}
+footer .footer-title {font-size: 20px; font-weight: 700; line-height: 1; color: rgba(255, 255, 255, .60); font-family: 'Saira Condensed', sans-serif; text-transform: uppercase; margin-bottom: 15px;}
+footer .footer-detail-wrp {margin-bottom: 62px;}
+footer .footer-detail-wrp .footer-detail, footer .footer-detail-wrp .footer-detail a {font-size: 18px; font-weight: 300; line-height: 24px; color: rgba(255, 255, 255, .60); font-family: 'Saira Condensed', sans-serif;}
+footer .footer-detail-wrp .footer-detail a:hover {color: rgba(255, 99, 43, 0.60);}
+footer .footer-detail-wrp .social-item {margin-right: 18px;}
+footer .container-fluid {background-color: #171717; padding: 10px 15px;}
+footer .container-fluid .copyright-text {font-size: 13px; font-weight: 400; line-height: 1; color: rgba(255, 255, 255, .20); text-transform: uppercase;}
+/***** Footer Section End *****/
+
+/***** Media Start *****/
+@media only screen and (max-width: 991px) {
+	.free-seo-estimate {padding: 63px 0 80px;}
+	.title-wrap .section-title {font-size: 50px;}
+	.title-wrap .section-sub-title {font-size: 20px;}
+	.site-url-wrap .site-url-text {font-size: 20px;}
+	.site-url-wrap .form-row input {height: 60px; font-size: 18px;}
+	.keywords-table .table-bordered td, .keywords-table .table-bordered th {padding: 9px 15px; font-size: 17px;}
+	.keywords-table .table-bordered td {padding: 9px 15px;}
+	.site-url-wrap {margin-bottom: 50px;}
+	.keywords-table .table-bordered td .keywords-name input {padding: 7px 10px;}
+	.keywords-table {margin: 0 auto 50px;}
+	input[type="submit"].submit-btn {font-size: 22px; padding: 13px 50px;}
+	footer .footer-detail br {display: none;}
+	footer hr {margin: 18px 0;}
+
+	.personal-info-sec .info-sidebar {padding: 15px;}
+	.personal-info-sec label.radio-wrap {font-size: 17px;}
+	.personal-info-sec .personal-info-title {font-size: 24px;}
+	.personal-info-sec input[type="submit"] {font-size: 22px; height: 50;}
+	.website-btn { height: 60px; }
+}
+@media only screen and (max-width: 767px) {
+	.header-section nav.navbar .phone-number-btn {padding: 4px 15px 4px;}
+	.header-section nav.navbar .phone-number-btn .call-us-text, 
+	.header-section nav.navbar .phone-number-btn .divider-text, 
+	.header-section nav.navbar .phone-number-btn .number-text {font-size: 18px;}
+	.free-seo-estimate {padding: 53px 0 70px;}
+	.title-wrap .section-title {font-size: 40px; margin-bottom: 15px;}
+	.title-wrap .section-sub-title {font-size: 16px; line-height: 1.3; margin-bottom: 25px;}
+	.site-url-wrap .site-url-text {font-size: 18px; margin-bottom: 6px;}
+	.site-url-wrap .form-row input {height: 50px; font-size: 18px;}
+	.keywords-table .add-keyword-btn {font-size: 14px; padding: 6px 12px; margin-left: 8px;}
+	.keywords-table .table-bordered td, .keywords-table .table-bordered th {padding: 9px 10px; font-size: 16px;}
+	.keywords-table .table-bordered td .keywords-name input {padding: 5px 8px; font-size: 15px;}
+	footer .footer-title {font-size: 18px; margin-bottom: 10;}
+	footer .footer-detail-wrp .footer-detail, footer .footer-detail-wrp .footer-detail a {font-size: 16px; line-height: 22px;}
+	footer .footer-detail-wrp {margin-bottom: 40px;}
+	.keywords-table .checkmark {height: 22px; width: 22px;}
+	.keywords-table .checkbox-wrap .checkmark::after {left: 8px; top: 5px;}
+	input[type="submit"].submit-btn {font-size: 20px; padding: 10px 40px;}
+
+	.personal-info-sec .info-sidebar {padding: 20px; max-width: unset;}
+	.personal-info-sec {padding: 50px 0 80px;}
+	.personal-info-sec .info-table-wrp th {font-size: 18px;}
+	.personal-info-sec .info-table-wrp td {font-size: 16px;}
+	.personal-info-sec label {font-size: 16px; margin-bottom: 5px;}
+	.personal-info-sec .form-row .form-group {margin-bottom: 15px;}
+	.personal-info-sec .personal-info-title {text-align: center;}
+	.personal-info-sec .payment-method-img {text-align: center;}
+	.website-btn { height: 50px; font-size: 24px; padding: 10px 55px;}
+}
+@media only screen and (max-width: 480px) {
+	.header-section .navbar {text-align: center; display: block;}
+	.header-section .navbar .navbar-brand {margin: 0 0 5px;}
+	.header-section .site-navigation {display: block;}
+	footer .footer-detail-wrp {margin-bottom: 25px;}
+	.site-url-wrap .form-group {display: block; }
+	.website-btn {height: 45px; font-size: 22px; margin-top: 15px; }
+
+}
+/***** Media End *****/
