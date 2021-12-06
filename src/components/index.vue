@@ -115,7 +115,7 @@ export default {
     Footer,
   },
   watch: {
-    checked(newValue, oldValue) {
+    checked(newValue) {
       localStorage.setItem("checked", JSON.stringify(newValue));
     }
   },
