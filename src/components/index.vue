@@ -124,9 +124,25 @@ export default {
   },
   methods: {
     async urlorganinc() {
-        let result = await axios.get("http://localhost:3000/keywords");
-        
-      this.result = result.data;
+         const token = '111111111111111111'; //token from local.storage 
+    const url= "https://glorywebsdemo.com/db.json";
+
+    axios.get
+        axios({
+            "url": url,
+            "method": "GET",
+            "headers": {
+                'Authorization': `Bearer ${token}`
+            }
+        })
+        .then(response => {
+            this.setState({
+                projects: response
+            });
+        })
+        .catch(error => {
+            console.log('error');
+        })
     },
     goToHome(){
    this.$router.push('/payment'); 
