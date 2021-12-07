@@ -124,25 +124,43 @@ export default {
   },
   methods: {
     async urlorganinc() {
-         const token = '111111111111111111'; //token from local.storage 
-    const url= "https://glorywebsdemo.com/db.json";
-
-    axios.get
-        axios({
-            "url": url,
-            "method": "GET",
-            "headers": {
-                'Authorization': `Bearer ${token}`
-            }
-        })
-        .then(response => {
-            this.setState({
-                projects: response
-            });
-        })
-        .catch(error => {
-            console.log('error');
-        })
+        // let result = await axios.get("https://glorywebsdemo.com/db.json");
+        let result = {
+"data": [
+{
+"id": 1,
+"keyword": "html",
+"timeline": "02 month",
+"price": "$200 per month"
+},
+{
+"id": 2,
+"keyword": "wordpress",
+"timeline": "03 month",
+"price": "$300 per month"
+},
+{
+"id": 3,
+"keyword": "laravel",
+"timeline": "01 month",
+"price": "$200 per month"
+},
+{
+"id": 4,
+"keyword": "ppc",
+"timeline": "09 month",
+"price": "$350 per month"
+},
+{
+"id": 5,
+"keyword": "reactjs",
+"timeline": "09 month",
+"price": "$350 per month"
+}
+]
+};
+        
+      this.result = result.data;
     },
     goToHome(){
    this.$router.push('/payment'); 
